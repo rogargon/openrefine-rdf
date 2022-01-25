@@ -1,6 +1,6 @@
 # Docker container with OpenRefine and the RDF Extension
 
-Current version: OpenRefine 3.3 with RDF Extension 1.2.0
+Current version: OpenRefine 3.5.1 with RDF Extension 1.3.1
 
 Example of use with the following `docker-compose.yml`:
 
