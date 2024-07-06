@@ -20,7 +20,7 @@ RUN set -xe \
     && curl -sSL ${RDF_EXTENSION_URL} -o rdf-extension.zip \
     && unzip -d rdf-extension rdf-extension.zip && rm rdf-extension.zip \
     && curl -sSL ${RDFT_EXTENSION_URL} -o rdf-transform.zip \
-    && unzip rdf-transform.zip && rm rdf-extension.zip
+    && unzip rdf-transform.zip && rm rdf-transform.zip
 
 VOLUME /data
 WORKDIR /data
