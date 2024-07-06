@@ -1,4 +1,4 @@
-FROM java:8-jre-alpine
+FROM openjdk:8-jre-alpine
 MAINTAINER kev <roberto@rhizomik.net>
 
 ENV OPENREFINE_VERSION 3.8.1
