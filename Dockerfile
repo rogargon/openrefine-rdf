@@ -1,5 +1,5 @@
-FROM openjdk:8-jre-alpine
-MAINTAINER kev <roberto@rhizomik.net>
+FROM adoptopenjdk/openjdk11:alpine-jre
+MAINTAINER <roberto@rhizomik.net>
 
 ENV OPENREFINE_VERSION 3.8.1
 ENV RDF_EXTENSION_VERSION 1.4.0
